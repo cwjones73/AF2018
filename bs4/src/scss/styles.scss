@@ -1,0 +1,274 @@
+@import "_variables.scss";
+@import "_functions.scss";
+
+@media screen and (max-width: 399px) and (min-width: 300px){
+  .index-box{
+    margin:10px 0px 10px 27px;
+    width:76%;
+    padding: 30px 0px 20px 0px; 
+  }
+  .index-title{
+    margin: 0px 40px 0px 40px;
+  }
+  nav{
+    margin-left:40ox;
+  }
+  ul.main{
+  }
+  li.main{
+    width:230px;
+    margin-left:-2px !important;
+    padding-right:0px;
+  }
+}
+
+@media screen and (max-width: 600px) and (min-width: 400px){
+  .index-box{
+    margin:10px 0px 10px 27px;
+    width:78.5%;
+    padding: 30px 0px 30px 0px; 
+  }
+  .index-title{
+    margin: 0px 40px 0px 40px;
+  }
+  nav{
+  }
+  ul.main{
+  }
+  li.main{
+    width:260px;
+    margin-left:-2px !important;
+    padding-right:0px;
+  }
+}
+@media screen and (max-width: 767px) and (min-width: 601px){
+  .index-box{
+    margin:10px 0px 10px 27px;
+    width:86%;
+    padding: 30px 0px 30px 0px; 
+  }
+  .index-title{
+    margin: 0px 40px 0px 40px;
+  }
+  nav{
+  }
+  ul.main{
+  }
+  li.main{
+    width:470px;
+    margin-left:5px;
+    padding-right:-60px;
+  }
+}
+@media screen and (min-width: 768px){
+  .index-box{
+    margin:10px 0px 10px 27px;
+    width:84.5%;
+    padding: 30px 0px 30px 0px; 
+  }
+  .index-title{
+    margin: 0px 40px 0px 40px;
+  }
+  nav{
+  }
+  ul.main{
+  }
+  li.main{
+    width:618px;
+    margin-left:5px;
+    padding-right:-60px;
+  }
+}
+@media screen and (min-width: 992px){
+  .index-box{
+    margin:10px 0px 10px 27px;
+    width:80.5%;
+    padding: 30px 0px 30px 0px; 
+  }
+  .index-title{
+    margin: 0px 40px 0px 40px;
+  }
+  nav{
+  }
+  ul.main{
+    margin-left: 20px;
+  }
+  li.main{
+    width:200px;
+    margin-left:0px;
+    padding-right:-60px;
+    
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .index-box{
+    margin:10px 0px 10px 27px;
+    width:74.5%;
+    padding: 30px 0px 30px 0px; 
+  }
+  .index-title{
+    margin: 0px 40px 0px 40px;
+  }
+  nav{
+  }
+  ul.main{
+  }
+  li.main{
+    width:250px;
+    margin-left:0px;
+
+  }
+}
+// iPhone Landscape
+@media only screen and (max-device-width : 667px) and (orientation : landscape) {
+  .index-box{
+    margin:10px 0px 10px -37px;
+    width:105%;
+    padding: 30px 0px 30px 0px; 
+  }
+  .index-title{
+    margin: 0px 40px 0px 40px;
+  }
+  nav{
+  }
+  ul.main{
+    margin-left:-44px;
+    padding-left:-30px;
+  }
+  li.main{
+    width:498px;
+    margin-left:-30px;
+
+  }
+}
+// iPhone Portrait
+@media only screen and (max-device-width : 375px) and (orientation : portrait) {
+  .index-box{
+    margin:10px 0px 10px -14px;
+    width:98%;
+    border-radius: 25px;
+    
+    padding: 30px 0px 20px 0px; 
+  }
+  .index-title{
+    margin: 0px 40px 0px 40px;
+  }
+  nav{
+    margin-left:40ox;
+  }
+  ul.main{
+  }
+  li.main{
+    width:280px;
+    margin-left:-50px !important;
+    padding-right:0px;
+  }
+  .container{
+    margin:-50px !important;
+  }
+}
+@media only screen and (max-device-width : 1024px) and (orientation : landscape) {
+  .index-box{
+    margin:10px 0px 10px 27px;
+    width:74.5%;
+    padding: 30px 0px 30px 0px; 
+  }
+  .index-title{
+    margin: 0px 40px 0px 40px;
+  }
+  nav{
+  }
+  ul.main{
+  }
+  li.main{
+    width:268px;
+    margin-left:10px;
+  }
+}
+body {
+  background: -webkit-linear-gradient(left, $rainbow-red, $rainbow-orange, $rainbow-yellow, $rainbow-green, $rainbow-blue);
+  background-repeat: repeat-y;
+  width:100%;
+}
+h1{
+  font-size: $sizeofheader;
+  color:$header-color;
+}
+h2{
+  font-size:$sizeofheader - 7px;
+  color:$header-color;
+}
+a{
+  color:$link-color;
+    &:hover{
+      color:$hoverover-color;
+    }
+}
+
+.index-container{
+  margin:$index-container;
+}
+.index-box{
+  border-radius: 25px;
+  background: $color-white ;
+}
+
+.main-nav{
+  float:right;
+  margin:0px 50px 0px 0px;
+    li{
+      display:block flex;
+      float:left;
+      flex-direction: column-reverse;
+      margin:-10px 25px 0px 20px ;
+    }
+}
+nav {
+  float:left;
+  display: block;
+}
+ul{
+  list-style-type: none;
+
+  // padding:0;
+  // margin:0;
+}
+ul.main{
+  li:first-child{
+      border-radius: $first-child-corners;
+  }
+  li{
+    color:$color-white;        
+    padding:$sizeofbox;
+    border:$boxboarder;
+    text-align: center;
+    &:hover{
+      color:$color-white;
+    }
+  }
+  li:last-child{
+    border-radius: $last-child-corners;
+  }
+  .employers{
+    background: $rainbow-green;
+    color:$color-green;
+    &:hover{
+      background:$color-green;
+    }
+  }
+  .YoungPeople{
+    background: $rainbow-red;
+    color:$color-red;
+    &:hover{
+      background:$color-red;
+    }
+  }
+    .providers{
+      background: $rainbow-blue;
+      color:$color-blue;
+      &:hover{
+        background:$color-blue;
+      }
+  }
+}

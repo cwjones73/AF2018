@@ -1,0 +1,189 @@
+@media screen and (max-width: 399px) and (min-width: 300px) {
+  .index-box {
+    margin: 10px 0px 10px 27px;
+    width: 76%;
+    padding: 30px 0px 20px 0px; }
+  .index-title {
+    margin: 0px 40px 0px 40px; }
+  nav {
+    margin-left: 40ox; }
+  li.main {
+    width: 230px;
+    margin-left: -2px !important;
+    padding-right: 0px; } }
+
+@media screen and (max-width: 600px) and (min-width: 400px) {
+  .index-box {
+    margin: 10px 0px 10px 27px;
+    width: 78.5%;
+    padding: 30px 0px 30px 0px; }
+  .index-title {
+    margin: 0px 40px 0px 40px; }
+  li.main {
+    width: 260px;
+    margin-left: -2px !important;
+    padding-right: 0px; } }
+
+@media screen and (max-width: 767px) and (min-width: 601px) {
+  .index-box {
+    margin: 10px 0px 10px 27px;
+    width: 86%;
+    padding: 30px 0px 30px 0px; }
+  .index-title {
+    margin: 0px 40px 0px 40px; }
+  li.main {
+    width: 470px;
+    margin-left: 5px;
+    padding-right: -60px; } }
+
+@media screen and (min-width: 768px) {
+  .index-box {
+    margin: 10px 0px 10px 27px;
+    width: 84.5%;
+    padding: 30px 0px 30px 0px; }
+  .index-title {
+    margin: 0px 40px 0px 40px; }
+  li.main {
+    width: 618px;
+    margin-left: 5px;
+    padding-right: -60px; } }
+
+@media screen and (min-width: 992px) {
+  .index-box {
+    margin: 10px 0px 10px 27px;
+    width: 80.5%;
+    padding: 30px 0px 30px 0px; }
+  .index-title {
+    margin: 0px 40px 0px 40px; }
+  ul.main {
+    margin-left: 20px; }
+  li.main {
+    width: 200px;
+    margin-left: 0px;
+    padding-right: -60px; } }
+
+@media screen and (min-width: 1200px) {
+  .index-box {
+    margin: 10px 0px 10px 27px;
+    width: 74.5%;
+    padding: 30px 0px 30px 0px; }
+  .index-title {
+    margin: 0px 40px 0px 40px; }
+  li.main {
+    width: 250px;
+    margin-left: 0px; } }
+
+@media only screen and (max-device-width: 667px) and (orientation: landscape) {
+  .index-box {
+    margin: 10px 0px 10px -37px;
+    width: 105%;
+    padding: 30px 0px 30px 0px; }
+  .index-title {
+    margin: 0px 40px 0px 40px; }
+  ul.main {
+    margin-left: -44px;
+    padding-left: -30px; }
+  li.main {
+    width: 498px;
+    margin-left: -30px; } }
+
+@media only screen and (max-device-width: 375px) and (orientation: portrait) {
+  .index-box {
+    margin: 10px 0px 10px -14px;
+    width: 98%;
+    border-radius: 25px;
+    padding: 30px 0px 20px 0px; }
+  .index-title {
+    margin: 0px 40px 0px 40px; }
+  nav {
+    margin-left: 40ox; }
+  li.main {
+    width: 280px;
+    margin-left: -50px !important;
+    padding-right: 0px; }
+  .container {
+    margin: -50px !important; } }
+
+@media only screen and (max-device-width: 1024px) and (orientation: landscape) {
+  .index-box {
+    margin: 10px 0px 10px 27px;
+    width: 74.5%;
+    padding: 30px 0px 30px 0px; }
+  .index-title {
+    margin: 0px 40px 0px 40px; }
+  li.main {
+    width: 268px;
+    margin-left: 10px; } }
+
+body {
+  background: -webkit-linear-gradient(left, #ffccd4, #ffeecc, #fdffcc, #ddffcc, #ccdeff);
+  background-repeat: repeat-y;
+  width: 100%; }
+
+h1 {
+  font-size: 28px;
+  color: yellow; }
+
+h2 {
+  font-size: 21px;
+  color: yellow; }
+
+a {
+  color: #fa0065; }
+  a:hover {
+    color: white; }
+
+.index-container {
+  margin: 0% 0% 0% 10%; }
+
+.index-box {
+  border-radius: 25px;
+  background: white; }
+
+.main-nav {
+  float: right;
+  margin: 0px 50px 0px 0px; }
+  .main-nav li {
+    display: block flex;
+    float: left;
+    flex-direction: column-reverse;
+    margin: -10px 25px 0px 20px; }
+
+nav {
+  float: left;
+  display: block; }
+
+ul {
+  list-style-type: none; }
+
+ul.main li:first-child {
+  border-radius: 22px 22px 0px 0px; }
+
+ul.main li {
+  color: white;
+  padding: 17px 0px 15px 0px;
+  border: solid white 2px;
+  text-align: center; }
+  ul.main li:hover {
+    color: white; }
+
+ul.main li:last-child {
+  border-radius: 0px 0px 22px 22px; }
+
+ul.main .employers {
+  background: #ddffcc;
+  color: green; }
+  ul.main .employers:hover {
+    background: green; }
+
+ul.main .YoungPeople {
+  background: #ffccd4;
+  color: #fa0065; }
+  ul.main .YoungPeople:hover {
+    background: #fa0065; }
+
+ul.main .providers {
+  background: #ccdeff;
+  color: #3897cc; }
+  ul.main .providers:hover {
+    background: #3897cc; }

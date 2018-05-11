@@ -1,0 +1,6 @@
+@mixin rainbow($colors...) {
+    @each $color in $colors {
+      .#{$color} {
+            background: $color; } 
+    }
+  }
